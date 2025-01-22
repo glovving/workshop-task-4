@@ -51,8 +51,7 @@ function preload(){
   end1monkey4 = loadImage("Resources/end1monkey4_st.png");
   monkeyarray = [end1monkey1, end1monkey2, end1monkey3, end1monkey4];
 
-  //loading song
-  end_song = loadSound("Resources/soren_loved_regina2.ogg");
+ 
 
 }
 
