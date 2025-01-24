@@ -8,10 +8,12 @@ Link to my completed website (https://glovving.github.io/workshop-task-4/)
 
 ## Notes and Planning
 Here are the notes I took during the workshop tutorial video, I used them as a quick referencing while writing my code
-  (Add notes)
+
+<img src="Documentation/Preparation/note1.jpg" alt="Notes" width="300"><img src="Documentation/Preparation/note2.jpg" alt="Notes" width="300">
 
 For planning my sketch, I began with writing down a basic idea of what I wanted which is shown below.
-  (Add photo)
+
+<img src="Documentation/Preparation/sketchplan.jpg" alt="Notes" width="300">
 
 My initial plan was to have an angel character which would personally address the user, asking for some personal input (names, message, etc.), then the angel would quiz the user, depending on the results of this quiz the user would end up with different 'end' scenarios.
 I wanted this sketch to feel videogame-like, by using an illustrated character, presenting the user a challenge, and having multiple endings based on user input.
@@ -25,6 +27,8 @@ I chose to create my image using a digital program in order to emphasise the dig
 
 ### Code Layout
 The layout of my code is very similar to last weeks workshop, I globally declared my variables such as buttons, images, arrays etc., used a preload function to load images/ music from my resources library, a set up function to code the behaviour of my globally declared elements and several functions corresponding to different 'scenarios' which are triggered using a series of if + else statements and boolean flags in my draw function.
+
+<img src="Documentation/Preparation/flow.jpg" alt="Notes" width="300">
 
 The user is greeted with the introduction screen which gives the user the option to continue or quit using 'yes' and 'no' buttons, upon pressing 'no', the end function is triggered and upon pressing yes the continue1 function is triggered.
 <img src="Documentation/Preparation/Introduction.png" alt="Notes" width="400">
@@ -71,18 +75,26 @@ In order to store and display the users selected qualities from the checkboxes I
 Similarly to last week the biggest problem I encountered was the placement of my variables and code.
 My initial 'yes' and 'no' buttons were not responding like I wanted to to, so I went to the discord to ask for help, where Leo helped my fix my code.
 Aside from not globally declaring my variables he also advised me to use the .hide() and .show() functions to hide and show different elements when I needed them on screen. 
-(Add screen shot of Discord)
+
+<img src="Documentation/Preparation/leo1.png" alt="Notes" width="300"><img src="Documentation/Preparation/leo2.png" alt="Notes" width="300">
+
+I also made functions which would traverse through and array, hiding and showing all elements.
+
+<img src="Documentation/Preparation/hide_show_checkbox_func.png" alt="Notes" width="300">
 
 ### Problem Two
 I did experiment with resizing capabilities, however I did not keep track of this thoroughly which resulted in my screen being cut or not loading correctly when the window was resized.
 I will fix this in my next website by always using the window width/ height as a reference. 
-(screen shots)
+
+<img src="Documentation/Preparation/incorrec_resize.png" alt="Notes" width="300">
+
+<img src="Documentation/Preparation/windowresiedfunc.png" alt="Notes" width="300">
 
 ### Failed Experiment:
 Another big problem I encountered was when I tried to add music to my website, I felt like I did everything right as the song did play, however the sound was very glitched and laggy so it did not sound nice and I ended up removing the song from my website.
 
 I tried several different solutions to try and get the song to work, first I changed the mp3 file to a lower sound quality, then I changed it to a obb file for an even lower file size, and finally I tried using a check function so that the song would only play once it had fullt loaded to prevent glitching, however none of these soltions worked.
-(Add screen shots)
+(sc)
 
 ### What I would do Differently:
 Something I want to do differently for the next workshop is to limit my reliance on if/ else statements within my draw function.
