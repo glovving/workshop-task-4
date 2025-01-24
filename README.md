@@ -86,7 +86,7 @@ I also made functions which would traverse through and array, hiding and showing
 I did experiment with resizing capabilities, however I did not keep track of this thoroughly which resulted in my screen being cut or not loading correctly when the window was resized.
 I will fix this in my next website by always using the window width/ height as a reference. 
 
-<img src="Documentation/Preparation/incorrec_resize.png" alt="Notes" width="300">
+<img src="Documentation/Preparation/incorrect_resize.png" alt="Notes" width="300">
 
 <img src="Documentation/Preparation/windowresiedfunc.png" alt="Notes" width="300">
 
@@ -94,11 +94,14 @@ I will fix this in my next website by always using the window width/ height as a
 Another big problem I encountered was when I tried to add music to my website, I felt like I did everything right as the song did play, however the sound was very glitched and laggy so it did not sound nice and I ended up removing the song from my website.
 
 I tried several different solutions to try and get the song to work, first I changed the mp3 file to a lower sound quality, then I changed it to a obb file for an even lower file size, and finally I tried using a check function so that the song would only play once it had fullt loaded to prevent glitching, however none of these soltions worked.
-(sc)
+
+<img src="Documentation/Preparation/loadsong.png" alt="Notes" width="300">
 
 ### What I would do Differently:
 Something I want to do differently for the next workshop is to limit my reliance on if/ else statements within my draw function.
-(Add screen shot)
+
+<img src="Documentation/Preparation/ifelse.png" alt="Notes" width="300">
+
 I ended up using so many if/else statements, each time callin and individual function, when I should have been calling functions within functions where possible.
 I want to improve on this aspect as I feel like my code is not as robust as it could be and overly long.
 
