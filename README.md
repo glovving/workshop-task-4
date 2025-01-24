@@ -1,5 +1,6 @@
 # workshop-task-4
 # Interactivity
+Link to my completed website (https://glovving.github.io/workshop-task-4/)
 ## The goals for this weeks workshop tasks:
 - Create an interactive p5.js sketch with at least three different kinds of user input events.
 - Experiment with ways to record and redeploy inputs from the user.
@@ -63,6 +64,36 @@ At the final scenario the user is referred to by their inputted name and welcome
 In order to store and display the users selected qualities from the checkboxes I wrote a qualities() function, which uses a for loop to traverse through the check box array, and using the index number, I referred to a corresponding string array, concatenating the checked quality strings to a blank string which was then displayed at the final screen.
 
 <img src="Documentation/Preparation/qualities_func.png" alt="Notes" width="400">
+
+## Problems I Encoutered, Failed Experiment, and What I would do Differently
+
+### Problem One:
+Similarly to last week the biggest problem I encountered was the placement of my variables and code.
+My initial 'yes' and 'no' buttons were not responding like I wanted to to, so I went to the discord to ask for help, where Leo helped my fix my code.
+Aside from not globally declaring my variables he also advised me to use the .hide() and .show() functions to hide and show different elements when I needed them on screen. 
+(Add screen shot of Discord)
+
+### Problem Two
+I did experiment with resizing capabilities, however I did not keep track of this thoroughly which resulted in my screen being cut or not loading correctly when the window was resized.
+I will fix this in my next website by always using the window width/ height as a reference. 
+(screen shots)
+
+### Failed Experiment:
+Another big problem I encountered was when I tried to add music to my website, I felt like I did everything right as the song did play, however the sound was very glitched and laggy so it did not sound nice and I ended up removing the song from my website.
+
+I tried several different solutions to try and get the song to work, first I changed the mp3 file to a lower sound quality, then I changed it to a obb file for an even lower file size, and finally I tried using a check function so that the song would only play once it had fullt loaded to prevent glitching, however none of these soltions worked.
+(Add screen shots)
+
+### What I would do Differently:
+Something I want to do differently for the next workshop is to limit my reliance on if/ else statements within my draw function.
+(Add screen shot)
+I ended up using so many if/else statements, each time callin and individual function, when I should have been calling functions within functions where possible.
+I want to improve on this aspect as I feel like my code is not as robust as it could be and overly long.
+
+
+
+
+
 
 
 
