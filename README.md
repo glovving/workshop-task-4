@@ -17,7 +17,7 @@ I wanted this sketch to feel videogame-like, by using an illustrated character, 
 
 ## Creating my Sketch
 I began working on this sketch by creating my angel character, which I made using simple shapes and the pen tool on paint 3d, which is a free windows program.
-(Add photo)
+(Add photo of angel)
 
 I chose to create my image using a digital program in order to emphasise the digital environment of my sketch.
 
@@ -27,8 +27,9 @@ The layout of my code is very similar to last weeks workshop, I globally declare
 The user is greeted with the introduction screen which gives the user the option to continue or quit using 'yes' and 'no' buttons, upon pressing 'no', the end function is triggered and upon pressing yes the continue1 function is triggered.
 (Add photo)
 
-The end scenario is a mostly blank screen with small, randomly generated pictures of monkeys, and the text "Please come back when you have more love.", for this screen, I used the same flow and logic as my collage from workshop 3.
-(Add photo)
+The end scenario is a mostly blank, cream screen with small, randomly generated pictures of monkeys, and the text "Please come back when you have more love.", for this screen, I used the same flow and logic as my collage from workshop 3.
+I used the google rgb value selector for the background of this screen, and every other time I had to select a colour.
+(Add photo of screen and rbg and monkey images)
 
 The continue1 scenario is a 'quiz', where the user is able to check traits that apply to themselves and submit their answer, pressing the submit button toggles a boolean flag variable, which then triggers a function which calculates the users score, and depending on the score toggles another boolean flag depending on whether or not the used has 'passed'.
 (Add photo of calculate function) 
